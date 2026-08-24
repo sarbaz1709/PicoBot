@@ -477,7 +477,7 @@ def obstacle_avoidance():
 
 try:
     
-    # note: the 2 capacitors (470uF 16V) placed between 5V power/grnd rails were also causing buck to reset even with the code below, removing both of them and putting just one on buck output fixed resets mostly + the code below also helps (unsure which helps more)
+    # note: the 2 capacitors (470uF 16V) placed between 5V power/grnd rails were also causing buck to reset even with the code below, removing both of them and putting just 1 of them on buck output fixed resets mostly + the code below also helps (unsure which helps more)
         
     motor_shutdown()           # CRUCIAL: Shutdown motors for 0.5 seconds on electrical boot-up (power supply on) to fix buck resets on power supply on/off
     time.sleep(0.5)            # "finally" at bottom of code only helps buck reset due to software on/off, while this helps with physical power supply on/off causing buck resets
