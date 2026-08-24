@@ -45,6 +45,6 @@ https://github.com/user-attachments/assets/12376918-3ae8-46aa-82f1-461c3f1d1bef
 
 ## Software:
 - See main_code.py file within repository for full python source code which implements all PicoBot features mentioned above.
-
+- Code file also has much more general detail about the robot in the comments
 
 
