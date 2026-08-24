@@ -31,7 +31,7 @@ https://github.com/user-attachments/assets/12376918-3ae8-46aa-82f1-461c3f1d1bef
 - SG90 Micro Servo
 - HC-SR04 Ultrasonic Sensor 5V (for obstacle avoidance)
 - 3 TCRT500 IR Sensors 3.3V/5V (for black line following)
-- 2 470uF 16V Electrolytic Capacitors
+- 1 470uF 16V Electrolytic Capacitor (placed at buck output, helps with buck reset due to overcurrent)
 - Standard Breadboard Push Button
 - 2 LEDs (different colors) with 220ohm resistors each
 - 1kohm and 2kohm resistors for HC-SR04 ECHO Line Voltage Divider
