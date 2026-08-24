@@ -11,6 +11,7 @@ Note to self: Future changes to the repo will include circuit diagrams and other
 
 ## Video Showing Full Functionality:
 https://github.com/user-attachments/assets/12376918-3ae8-46aa-82f1-461c3f1d1bef
+- Note: The test video shows an extra capacitor between power/ground rails but this was removed in the final build as it had a tendency to cause the buck to reset in obstacle avoiding mode, final build only has 1 capacitor at buck output (see code comments).  
 
 ## Features:
 ### Obstacle Avoiding: 
