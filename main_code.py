@@ -477,9 +477,8 @@ def obstacle_avoidance():
 
 try:
     
-    # note: the 2 capacitors (470uF 16V) placed between 5V power/grnd rails were also causing buck to reset even with the code below, removing 1 of them and putting it on buck output fixed resets mostly + the code below also helps (unsure which helps more)
-    # note: keeping both of those 470uF capacitors is still necessary to smooth out servo movement and ultrasonic readings due to excess stall current from servo, one just needs to go to buck output directly while other stays between power/grnd rails
-    
+    # note: the 2 capacitors (470uF 16V) placed between 5V power/grnd rails were also causing buck to reset even with the code below, removing both of them and putting just one on buck output fixed resets mostly + the code below also helps (unsure which helps more)
+        
     motor_shutdown()           # CRUCIAL: Shutdown motors for 0.5 seconds on electrical boot-up (power supply on) to fix buck resets on power supply on/off
     time.sleep(0.5)            # "finally" at bottom of code only helps buck reset due to software on/off, while this helps with physical power supply on/off causing buck resets
                                # still resets sometimes but if u wait a bit after putting batteries in for the first time or after powering off it works usually
@@ -520,6 +519,7 @@ try:
 # "finally" is better than "except" in this case because finally will run motor_shutdown() for any code-related reason the code is stopped, while except needs a specific reason like KeyboardInterrupt
 finally:    
     motor_shutdown()
+
 
 
 
