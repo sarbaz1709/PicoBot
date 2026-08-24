@@ -303,7 +303,7 @@ def ultrasonic_reading():
 
 big_right = 500
 small_right = 937
-center = 1375
+center = 1425
 small_left = 1863
 big_left = 2350
 
