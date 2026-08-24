@@ -5,8 +5,8 @@ Note to self: Future changes to the repo will include circuit diagrams and other
 
 ## Some Pictures:
 <p>
-  <img width="49%" height="50%" alt="front_view" src="https://github.com/user-attachments/assets/a64b58f6-7aa8-4800-bc0d-0be6bf7f1c17" />
-  <img width="49%" height="50%" alt="top_view" src="https://github.com/user-attachments/assets/2ee34f61-a89e-48eb-aa29-000a0de81e47" /> 
+  <img width="49%" height="50%" alt="front_view_picobot" src="https://github.com/user-attachments/assets/0245a0bf-01c6-475e-a9b6-8638cbcc87e1" />
+  <img width="49%" height="50%" alt="top_view_picobot" src="https://github.com/user-attachments/assets/d92e2cc7-0845-4f54-96c8-0132615390cd" />
 </p>
 
 ## Video Showing Full Functionality:
